@@ -1,6 +1,10 @@
 @-moz-document domain("render.githubusercontent.com"), domain("raw.githubusercontent.com"), regexp("^https?://((gist|guides|help|raw|status|developer).)?github.com((?!generated_pages/preview).)*$") {
+
 /* 
- * GitHub Gotham Theme v1.0
+ * Github Gotham Theme
+ * Author: nullx002 <nullx002@gmail.com>
+ * URL: https://github.com/nullx002/github-gotham-theme
+ * Version: 0.1
 */
 
 
@@ -153,10 +157,10 @@ h4 {
 }
 
 .btn {
-    color: #fff;
-    background-color: #1a2632;
+    color: #99d1ce !important;
+    background-color: #0c1014 !important;
     background-image: none;
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .btn:hover,
@@ -164,17 +168,17 @@ h4 {
 .btn.zeroclipboard-is-hover,
 .btn.zeroclipboard-is-active {
     text-decoration: none;
-    background-color: #151f29;
+    background-color: #091f2e !important;
     background-image: none;
-    border-color: #304251;
+    border-color: #33859e !important;;
 }
 
 .btn:active,
 .btn.selected,
 .btn.zeroclipboard-is-active {
-    background-color: #1a2632;
+    background-color: #0c1014 !important;
     background-image: none;
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .btn-primary {
@@ -245,7 +249,7 @@ button.dropdown-item.dropdown-signout {
 .boxed-group>h3,
 .boxed-group .heading {
     color: #99d1ce;
-    background-color: #11151c !important;
+    background-color: #091f2e !important;
     border-color: #33859e;
 }
 
@@ -302,9 +306,13 @@ button.dropdown-item.dropdown-signout {
 }
 
 .link-gray-dark {
-    color: #4078c0 !important;
+    color: #edb443 !important;
 }
 
+.link-gray-dark:hover {
+    color: #d26937 !important;
+}
+    
 .more-repos {
     text-align: center;
     background-color: #243447;
@@ -412,12 +420,17 @@ button.dropdown-item.dropdown-signout {
     color: #fff;
 }
 
+
+table.files tr.js-navigation-item {
+    background-color: #11151c !important;        
+} 
+    
 table.files {
-    background: #1a2632;
+    background: #11151c !important;
 }
 
 table.files tr.navigation-focus td {
-    background: #151f29;
+    background: #091f2e !important;
 }
 
 table.files td {
@@ -432,11 +445,11 @@ table.files td.icon {
     padding: 0.5em;
     margin-bottom: 0.8em;
     font-weight: bold;
-    background-color: #d28e5d;
+    background-color: #d26937 !important;
 }
 
 .file-wrap {
-    border-color: #304251;
+    border-color: #33859e;
 }
 
 .commit-author-section {
@@ -444,9 +457,9 @@ table.files td.icon {
 }
 
 .commit-tease {
-    color: #8485ce;
-    background-color: #243447;
-    border-color: #3e5570;
+    color: #888ca6 !important;
+    background-color: #091f2e !important;
+    border-color: #33959e;
 }
 
 .commits-list-item .commit-author {
@@ -454,12 +467,12 @@ table.files td.icon {
 }
 
 .commit-tease-sha {
-    color: #4078c0;
+    color: #4e5166 !important;
 }
 
 .commit-tease-contributors {
-    background-color: #151f29;
-    border-color: #3e5570;
+    background-color: #11151c !important;
+    border-color: #33959e;
 }
 
 .commit .commit-title a {
@@ -562,14 +575,15 @@ span.d-block {
 
 .readme .markdown-body,
 .readme .plain {
-    background-color: #151f29;
+    background-color: #11151c !important;
     border-color: #304251;
 }
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-    background-color: #1a2632;
-    border: 1px #304251 solid;
+    background-color: #091f2e !important;
+    border: 1px #599cab solid;
+    border-radius: 0px !important;
 }
 
 .markdown-body h1 {
@@ -609,8 +623,9 @@ span.d-block {
 
 .markdown-body code,
 .markdown-body tt {
-    color: #151f29;
-    background-color: #627790;
+    color: #11151c !important;
+    background-color: #888ca6 !important;
+    border-radius: 0px !important;
 }
 
 .blob-num {
@@ -624,16 +639,16 @@ span.d-block {
 
 .blob-code-hunk,
 .blob-code-expandable {
-    background-color: #243447;
+    background-color: #0c1014 !important;
 }
 
 .blob-num-hunk,
 .blob-num-expandable {
-    background-color: #243447;
+    background-color: #0c1014 !important;
 }
 
 .blob-num-expandable {
-    background-color: #243447;
+    background-color: #0c1014 !important;
 }
 
 .ace_editor .ace_gutter-active-line {
@@ -709,14 +724,19 @@ span.d-block {
 /* Repo Code Tab Live | Markdown */
 
 .file {
-    border-color: #304251;
+    background-color: #11151c !important;
+    border-color: #33859e;
 }
 
 .file-header {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: #091f2e !important;
+    border-color: #33859e;
 }
 
+.file .image {
+    background-color: #11151c !important;
+}    
+    
 .breadcrumb strong.final-path {
     color: #929292;
 }
@@ -744,10 +764,19 @@ span.d-block {
 /* Repo | Issues Tab */
 
 .table-list-header {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: #11151c !important;
+    border-color: #33859e;
 }
 
+.table-list-header .btn-link {
+    color: #edb443 !important;
+    background-color: #11151c !important;        
+}
+    
+.table-list-header .btn-link:hover {
+    color: #edb443 !important;      
+}    
+    
 .Box-body-row--highlight .Box-row-link {
     color: #00aba5;
 }
@@ -758,27 +787,27 @@ span.d-block {
 
 .Box-body-row--highlight.navigation-focus,
 .Box-body-row--highlight:hover {
-    background-color: #151f29;
+    background-color: #11151c !important;
 }
 
 .issues-listing .table-list-issues .navigation-focus {
-    background-color: #1a2632;
+    background-color: #0c1014 !important;
 }
 
 .table-list {
-    border-color: #304251;
+    border-color: #33859e;
 }
 
 .table-list-cell {
-    border-top-color: #304251;
+    border-top-color: #33859e;
 }
 
 .table-list-bordered .table-list-cell:first-child {
-    border-left-color: #304251;
+    border-left-color: #33859e;
 }
 
 .table-list-bordered .table-list-cell:last-child {
-    border-right-color: #304251;
+    border-right-color: #33859e;
 }
 
 .table-list-header-toggle .btn-link {
@@ -807,10 +836,14 @@ span.d-block {
 }
 
 .Box-body {
-    border-color: #304251;
+    border-color: #33859e;
 }
 
+.Box-row {
+    border-top: 1px solid #99d1ce !important;
+}    
 
+    
 /* Dropdown Menu */
 
 .select-menu-modal {
@@ -832,8 +865,8 @@ span.d-block {
 }
 
 .select-menu-item {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: #11151c !important;
+    border-color: #33859e;
 }
 
 .select-menu-item.selected {
@@ -846,20 +879,27 @@ span.d-block {
 }
 
 .select-menu-text-filter:first-child:last-child {
-    border-color: #304251;
+    border-color: #33859e;
+    background-color: #091f2e !important;
 }
 
 .select-menu-text-filter input {
     border-color: #304251;
+    background-color: #11151c !important;
 }
 
+    
+.select-menu-item.navigation-focus, .select-menu-item.navigation-focus.selected, .select-menu-item.navigation-focus.select-menu-action, .select-menu-item.navigation-focus .description-inline {
+    background-color: #599cab !important;
+    color: #0c1014 !important;
+}    
 
 /* Repo | Pull Request Tab */
 
 .border-left,
 .border-right,
 .border-bottom {
-    border-color: #304251 !important;
+    border-color: #11151c !important;
 }
 
 .pr-toolbar.is-stuck::after {
@@ -1152,15 +1192,15 @@ timeline-comment::before {
 /* Site | Issue Tab */
 
 .Box-row--focus-gray.navigation-focus {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .Box-row:first-of-type {
-    border-color: #304251;
+    border-color: #33859e;
 }
 
 .Box-row {
-    border-color: #304251;
+    border: 2px solid #11151c !important;
 }
 
 a.Box-row-link.h4.js-navigation-open {
@@ -1220,8 +1260,9 @@ a.branch-name {
 }
 
 .range-editor {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: #11151c !important;
+    border-color: #33859e;
+    border-radius: 0px !important;
 }
 
 .compare-pr-placeholder {
@@ -1244,8 +1285,8 @@ ul.comparison-list>li {
 }
 
 .file-diff-split .empty-cell {
-    background-color: #1a2632;
-    border-right-color: #304251;
+    background-color: #0c1014 !important;
+    border-right-color: #33859e;
 }
 
 .feature-callout-octicon {
@@ -1613,7 +1654,8 @@ hr,
 }
 
 .underline-nav-item.selected {
-    color: #fff;
+    color: #99d1ce !important;
+    border-bottom-color: #2aa889 !important;
 }
 
 .user-profile-sticky-bar::after {
@@ -1978,7 +2020,7 @@ li.session-device {
 }
 
 .blob-code-deletion {
-    background-color: #1a2632;
+    background-color: #0c1014 !important;
     text-decoration: line-through;
     color: #ef9a9a;
 }
@@ -1991,10 +2033,13 @@ li.session-device {
 }
 
 .blob-code-addition {
-    background-color: #1a2632;
+    background-color: #0c1014 !important;
 }
 
-
+.blob-expanded .blob-num, .blob-expanded .blob-code {
+    background-color: #0c1014 !important;
+}
+       
 /* End of Experimental */
 
 
@@ -2221,8 +2266,20 @@ li.session-device {
 .blob-code-inner {
     color: #d3ebe9 !important;
     font-family: "Inconsolata" !important;
-    font-size: 18px !important;
+    font-size: 16px !important;
 }    
+
+.btn-link {
+    display: block !important;
+    color: #0c1014 !important;
+    background-color: #edb443 !important;
+    text-decoration: none !important;
+    padding: 4px !important;
+}   
+    
+.btn-link:hover {
+    color: #11151c !important;
+}      
     
 .topic-tag {
     color: #0c1014 !important;
@@ -2290,6 +2347,33 @@ li.session-device {
 .header-search-input {
     background-color: #0c1014 !important;
 }     
+    
+.file-info {
+    font-family: "Inconsolata",Consolas,"Liberation Mono",Menlo,Courier,monospace !important;
+    font-size: 14px !important;
+    line-height: 32px !important;;        
+}
+    
+.file-actions {
+    font-size: 14px !important;
+}
+
+.label, .Label {
+    background-color: #599cab !important;
+    color: #0c1014 !important;
+    font-weight: normal !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 4px 4px;
+}    
+    
+    
+    
+    
     
 /****** end of NULL edits  ******/    
     
@@ -2424,6 +2508,6 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
-
+  
 
 }
