@@ -176,6 +176,12 @@ h3, h4 {
     background-color: #11151c !important;
 }
 
+.form-checkbox,
+.form-group label {
+    position: static;
+    color: #2aa889 !important;
+}
+    
 .btn {
     color: #99d1ce !important;
     background-color: #0c1014 !important;
@@ -1731,25 +1737,30 @@ table.capped-list tr:nth-child(even) {
 .menu {
     margin-bottom: 15px;
     list-style: none;
-    background-color: #1a2632;
+    background-color: #11151c !important;
     border: 1px solid #304251;
     border-radius: 3px;
 }
 
 .menu-item {
-    text-shadow: none;
-    border-bottom: 1px solid #304251;
+    text-shadow: none !important;
+    border-bottom: 1px solid #33859e !important;
 }
 
 .menu-item:hover {
-    background-color: #151f29;
+    background-color: #091f2e !important;
 }
 
 .menu-item.selected {
-    color: #fff;
-    background-color: #151f29;
+    color: #d3ebe9 !important;
+    background-color: #091f2e !important;
 }
 
+.menu-item.selected::before {
+    position: absolute;
+    background-color: #33859e !important;
+}    
+    
 .form-group .form-control {
     background-color: #151f29;
 }
