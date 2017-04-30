@@ -30,10 +30,10 @@ h3, h4 {
 }
 
 
-/* Class Global */
+/* Stitewide Global Class */
 
 .lead {
-    color: #929292;
+    color: #99d1ce !important;
 }
 
 
@@ -49,17 +49,17 @@ h3, h4 {
 
 .jumbotron-home {
     background-image: none;
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .features-list .list-divider,
 .setup-form .tos-info,
 .setup-form .setup-organization-next {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .radio-label {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .tag-input-tag {
@@ -610,16 +610,20 @@ span.d-block {
 }
 
 .markdown-body table tr {
-    background-color: #1a2632;
+    color: #d3ebe9 !important;
+}    
+    
+.markdown-body table tr {
+    background-color: #11151c;
 }
 
 .markdown-body table th,
 .markdown-body table td {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .markdown-body table tr:nth-child(2n) {
-    background-color: #243447;
+    background-color: #0c1014;
 }
 
 .markdown-body pre code,
@@ -629,8 +633,8 @@ span.d-block {
 
 .markdown-body code,
 .markdown-body tt {
-    color: #11151c !important;
-    background-color: #888ca6 !important;
+    color: #33859e !important;
+    background-color: #091F2E !important;
     border-radius: 0px !important;
 }
 
@@ -1337,13 +1341,35 @@ ul.comparison-list>li {
 }
 
 
-/* Release & Tags */
+/* Release & Tags Tab*/
 
+.release-label {
+    background-color: #195466 !important;
+    border-radius: 0px !important;
+    border: none !important;
+}
+    
 .release-timeline {
-    border-color: #304251;
+    border-color: #33859e !important;
     border-width: 1px;
 }
 
+.release-timeline-tags .date::after {
+    position: absolute;
+    top: 50%;
+    right: -9px !important;
+    z-index: 10;
+    display: block;
+    width: 18px !important;
+    height: 18px !important;
+    box-sizing: border-box;
+    margin-top: -6px;
+    content: " ";
+    background-color: #edb443 !important;
+    border: 9px solid #edb443 !important;
+    border-radius: 9px;
+}
+    
 .release-body {
     border-color: #304251;
     border-width: 1px;
@@ -1367,7 +1393,7 @@ ul.comparison-list>li {
 }
 
 .tag-info h3 a .tag-name {
-    color: #4078c0;
+    color: #195466 !important;
 }
 
 .release-downloads {
@@ -1378,7 +1404,40 @@ ul.comparison-list>li {
     border-color: #304251;
 }
 
+.release-downloads-header {
+    color: #edb443 !important;        
+}
+    
+.subnav-item.selected, 
+.subnav-item.selected:hover, 
+.subnav-item.selected:focus {
+    color: #d3ebe9 !important;
+    background-color: #195466 !important;
+    border-color: #33859e !important;
+}    
 
+    
+/* Pagination */
+    
+.pagination .gap, 
+.pagination .disabled, 
+.pagination .gap:hover, 
+.pagination .disabled:hover {
+    color: #99d1ce !important;
+    cursor: default;
+    background-color: #245361 !important;
+}
+    
+    
+.pagination a, 
+.pagination span, 
+.pagination em {
+    color: #99d1ce !important;
+    cursor: default;
+    background-color: #195466 !important;    
+}    
+    
+    
 /* Commits Tab */
 
 .commit-group-title .octicon-git-commit {
@@ -2271,10 +2330,10 @@ li.session-device {
 /****** Custom by NULL ******/    
     
 /* remove unwanted borders */    
-.vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .filter-bar, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw {
+.vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .filter-bar, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em {
   border: none !important;
   border-radius: 0px !important;
-}      
+}
 
 
 .blob-code-inner {
@@ -2522,6 +2581,6 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
- 
+  
 
 }
