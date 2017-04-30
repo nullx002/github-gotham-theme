@@ -10,12 +10,12 @@
 
 /* Sitewide Global HTML, CSS etc.*/
 
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato');
-    
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Slab'); 
+
 body {
     background-color: #0c1014 !important;
     color: #d3ebe9 !important;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -39,7 +39,27 @@ h3, h4 {
     color: #99d1ce !important;
 }
 
+/* Keyboard Shortcuts */    
 
+.facebox-popup {
+    background-color: #0c1014 !important;
+    background-clip: padding-box;
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+    
+.facebox-content, 
+.shortcuts {
+    background-color: #11151c !important;
+    border: 0px !important;
+}
+
+.keyboard-mappings th {
+    font-size: 16px;
+    color: #33859e !important;
+}
+    
 /* Main Site and New User */
 
 .site-header {
@@ -635,11 +655,16 @@ span.d-block {
 .blob-num {
     color: #5e6b77;
     border-color: #304251;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px !important;
 }
 
 .blob-code-inner {
-    color: #6d6d72;
-}
+    color: #d3ebe9 !important;
+    font-family: "Inconsolata" !important;
+    font-size: 16px !important;
+}     
+
 
 .blob-code-hunk,
 .blob-code-expandable {
@@ -1693,7 +1718,14 @@ table.capped-list tr:nth-child(even) {
     color: #9e9e9e;
 }
 
-
+/* Repo Graph | Network Graph */    
+    
+.Box {
+    background-color: #fff !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+    
 /* Repo Settings Tab */
 
 .menu {
@@ -2375,14 +2407,7 @@ li.session-device {
 .vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .filter-bar, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em, .steps {
   border: none !important;
   border-radius: 0px !important;
-}
-
-
-.blob-code-inner {
-    color: #d3ebe9 !important;
-    font-family: "Inconsolata" !important;
-    font-size: 16px !important;
-}    
+}   
 
 .btn-link {
     display: block !important;
