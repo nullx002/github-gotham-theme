@@ -63,15 +63,15 @@ h3, h4 {
 }
 
 .tag-input-tag {
-    background: #243447;
+    background: #245361 !important;
 }
 
 .tag-input-tag .remove {
-    background: #1a2632;
+    background: #11151c !important;
 }
 
 .home-hero-signup .form-control-lg {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .shade-gray {
@@ -141,9 +141,9 @@ h3, h4 {
 
 .form-control,
 .form-select {
-    color: #fff;
-    background-color: #151f29;
-    border-color: #304251;
+    color: #99d1ce !important;
+    background-color: #0c1014 !important;
+    border-color: #33859e !important;
 }
 
 .form-control.focus,
@@ -581,7 +581,6 @@ span.d-block {
 .readme .markdown-body,
 .readme .plain {
     background-color: #11151c !important;
-    border-color: #304251;
 }
 
 .markdown-body .highlight pre,
@@ -1419,21 +1418,22 @@ ul.comparison-list>li {
     
 /* Pagination */
     
-.pagination .gap, 
-.pagination .disabled, 
+.pagination .gap,
 .pagination .gap:hover, 
 .pagination .disabled:hover {
     color: #99d1ce !important;
     cursor: default;
-    background-color: #245361 !important;
+    background-color: #599CAB !important;
 }
     
+.pagination .disabled {
+    cursor: pointer !important;        
+}
     
 .pagination a, 
 .pagination span, 
 .pagination em {
     color: #99d1ce !important;
-    cursor: default;
     background-color: #195466 !important;    
 }    
     
@@ -1491,27 +1491,27 @@ ul.comparison-list>li {
 /* Repo Project Tab */
 
 .border {
-    border-color: #304251 !important;
+    border-color: #33859e !important;
 }
 
 .bg-gray {
-    background-color: #1a2632 !important;
+    background-color: #11151c !important;
 }
 
 .project-header {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .project-columns {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .bg-white {
-    background-color: #243447 !important;
+    background-color: #245361 !important;
 }
 
 .bg-gray-light {
-    background-color: #1a2632 !important;
+    background-color: #11151c !important;
 }
 
 
@@ -1565,7 +1565,8 @@ ul.comparison-list>li {
 /* Repo Graph | Contributors */
 
 .tint-box {
-    background: #1a2632;
+    background: #11151c !important;
+    border-radius: 0px !important;
 }
 
 .capped-card {
@@ -1573,13 +1574,23 @@ ul.comparison-list>li {
 }
 
 .capped-card-content {
-    background: #1a2632;
+    background: #11151c !important;
 }
 
+.contributors-graph .capped-card path {
+    fill: #edb443 !important;    
+}    
+    
+    
 .graphs .area {
-    fill: #00aba5;
+    fill: #33859e !important;
 }
 
+.graphs .selection rect {
+    
+}    
+    
+    
 .capped-card h3 {
     border-color: #304251;
 }
@@ -1847,17 +1858,17 @@ hr,
 }
 
 .steps {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .steps li {
-    background-color: #1a2632;
+    background-color: #0c1014 !important;
     border-color: #304251;
 }
 
 .steps li.current {
     color: #9e9e9e;
-    background-color: #243447;
+    background-color: #11151c !important;
 }
 
 .setup-info-module {
@@ -2330,7 +2341,7 @@ li.session-device {
 /****** Custom by NULL ******/    
     
 /* remove unwanted borders */    
-.vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .filter-bar, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em {
+.vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .filter-bar, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em, .steps {
   border: none !important;
   border-radius: 0px !important;
 }
