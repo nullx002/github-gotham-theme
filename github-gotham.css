@@ -90,7 +90,7 @@ h3, h4 {
 /* Main Site Login */
 
 .session-authentication {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .session-authentication .header-logo {
@@ -98,19 +98,25 @@ h3, h4 {
 }
 
 .session-authentication .auth-form-body {
-    border-color: #304251;
+    border-color: #33859e !important;
+    border-radius: 0px !important;
 }
 
 .auth-form-body {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
+.create-account-callout {
+    border-color: #33859e !important;
+    border-radius: 0px !important;
+}
+    
 .session-authentication .create-account-callout {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .session-authentication .auth-form-header {
-    color: #fff;
+    color: #99d1ce !important;
 }
 
 
@@ -142,7 +148,7 @@ h3, h4 {
 .form-control,
 .form-select {
     color: #99d1ce !important;
-    background-color: #0c1014 !important;
+    background-color: #091f2e !important;
     border-color: #33859e !important;
 }
 
@@ -223,10 +229,13 @@ button.dropdown-item.dropdown-signout {
 /* Site Related */
 
 .setup-header {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
-
+.setup-header h1 {
+    color: #edb443 !important;    
+}
+    
 /* Home */
 
 .news .alert {
@@ -1798,11 +1807,14 @@ hr,
 }
 
 .flash {
-    color: white;
-    background-color: #364952;
+    color: #99d1ce !important;
+    background-color: #11151c !important;
     border-color: #4c85a0;
 }
 
+.form-group.errored label {
+    color: #c23127 !important;
+}    
 
 /* Organisation */
 
@@ -1862,7 +1874,7 @@ hr,
 }
 
 .steps li {
-    background-color: #0c1014 !important;
+    background-color: #091f2e !important;
     border-color: #304251;
 }
 
@@ -1872,8 +1884,9 @@ hr,
 }
 
 .setup-info-module {
-    background-color: #1a2632;
-    border-color: #304251;
+    background-color: #11151c !important;
+    border-color: #33859e !important;
+    border-radius: 0px !important;
     box-shadow: none;
 }
 
