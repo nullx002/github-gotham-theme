@@ -4,7 +4,7 @@
  * Github Gotham Theme
  * Author: nullx002 <nullx002@gmail.com>
  * URL: https://github.com/nullx002/github-gotham-theme
- * Version: 0.1
+ * Version: 0.2
 */
 
 
@@ -241,7 +241,7 @@ button.dropdown-item.dropdown-signout {
 }
 
 
-/* Site Related */
+/* Common Site-wide */
 
 .setup-header {
     border-color: #33859e !important;
@@ -251,22 +251,27 @@ button.dropdown-item.dropdown-signout {
     color: #edb443 !important;    
 }
     
-/* Home */
+/* Logged-in Home */
 
-.news .alert {
-    border-color: #304251;
-}
-
+.news .alert .simple .title {
+    font-size: 16px !important;
+    color: #4e5166 !important;
+}    
+    
 .news .alert .octicon {
-    color: #8899a6;
+    color: #2aa889 !important;
 }
 
 .news .alert .branch-link,
 .news .alert .pull-info {
-    color: #151f29;
-    background: #627790;
+    color: #11151c !important;
+    background: #091f2e !important;
 }
 
+.more-repos-link {
+    background-color: #091f2e !important;
+}    
+    
 .ajax-pagination-form .ajax-pagination-d {
     background: #babdcb;
 }
@@ -291,40 +296,36 @@ button.dropdown-item.dropdown-signout {
     border-radius: 0px !important;        
 }    
     
-.mini-repo-list-item {
-    border-color: #304251;
-}
-
 .mini-repo-list-item .repo-icon {
-    color: #8899a6;
+    color: #888ca6 !important;
 }
 
 .private .mini-repo-list-item {
-    background-color: #243447;
+    background-color: #11151c !important;
 }
 
 .private .mini-repo-list-item .repo-icon {
-    color: #fff9c4;
+    color: #d3ebe9 !important;
 }
 
 .filter-bar {
-    background-color: #1a2632;
-    border-bottom: 1px solid #304251;
+    background-color: #11151c !important;
+    border-bottom: 1px solid #33859e !important;
 }
 
 .boxed-group .counter {
-    color: #fff;
-    background-color: #1a2632;
-    border: 1px #304251 solid;
+    color: #d3ebe9 !important;
+    background-color: #11151c !important;
+    border: 1px #33859e solid !important;
 }
 
 .subscribe-feed {
-    color: #6d6d72;
+    color: #599cab !important;
 }
 
 
 .octofication .broadcast-icon-mask {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .link-gray-dark {
@@ -337,9 +338,9 @@ button.dropdown-item.dropdown-signout {
     
 .more-repos {
     text-align: center;
-    background-color: #243447;
+    background-color: #091f2e !important;
     box-shadow: none;
-    border-top: 1px solid #304251;
+    border-top: 1px solid #33859e !important;
 }
 
 
@@ -367,7 +368,7 @@ button.dropdown-item.dropdown-signout {
 }    
     
 
-/* Repo Page (Main) */
+/* Repo Home Page */
 
 .repohead.experiment-repo-nav {
     background-color: #11151c !important;
@@ -431,21 +432,20 @@ button.dropdown-item.dropdown-signout {
 
 .numbers-summary a,
 .numbers-summary .nolink {
-    color: #969ab0;
+    color: #99d1ce !important;
 }
 
 .repository-lang-stats-graph {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .repository-lang-stats ol.repository-lang-stats-numbers li .language-color {
-    border: 1px #304251 solid;
+    border: 1px #33859e solid !important;
 }
 
 .repository-lang-stats ol.repository-lang-stats-numbers li .lang {
-    color: #fff;
+    color: #d3ebe9 !important;
 }
-
 
 table.files tr.js-navigation-item {
     background-color: #11151c !important;        
@@ -460,11 +460,11 @@ table.files tr.navigation-focus td {
 }
 
 table.files td {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 table.files td.icon {
-    color: #fff;
+    color: #d3ebe9 !important;
 }
 
 .warning {
@@ -475,7 +475,7 @@ table.files td.icon {
 }
 
 .file-wrap {
-    border-color: #33859e;
+    border-color: #33859e !important;
 }
 
 .commit-author-section {
@@ -489,7 +489,7 @@ table.files td.icon {
 }
 
 .commits-list-item .commit-author {
-    color: #00aba5;
+    color: #2aa889 !important;
 }
 
 .commit-tease-sha {
@@ -498,78 +498,78 @@ table.files td.icon {
 
 .commit-tease-contributors {
     background-color: #11151c !important;
-    border-color: #33959e;
+    border-color: #33859e !important;
 }
 
 .commit .commit-title a {
-    color: #4078c0;
+    color: #33859e !important;
 }
 
 .branch-infobar {
-    background-color: #1a2632;
-    border-color: #3e5570;
+    background-color: #0c1014 !important;
+    border-color: #33859e !important;
 }
 
 .full-commit {
-    background: #1a2632;
-    border: 1px solid #304251;
+    background: #0c1014 !important;
+    border: 1px solid #33859e !important;
 }
 
 .full-commit p.commit-title {
-    color: #00aba5;
+    color: #2aa889 !important;
 }
 
 .full-commit .commit-meta {
-    background: #243447;
-    border-color: #304251;
+    background: #091f2e !important;
+    border-color: #33859e !important;
 }
 
 .full-commit .sha-block {
-    color: #fff;
+    color: #d3ebe9 !important;
 }
 
 .full-commit .sha-block>.sha {
-    color: #9e9e9e;
+    color: #99d1ce !important;
 }
 
 .full-commit .btn-outline,
 .full-commit .btn-outline:disabled {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .commits-list-item.navigation-focus {
-    background: #151f29;
+    background: #11151c !important;
 }
 
 .file-navigation .get-repo-btn {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .file-navigation .get-repo-btn:first-child {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .signed-commit-badge {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .signed-commit-signer-name .signer {
     display: block;
     font-weight: bold;
-    color: #00aba5;
+    color: #2aa889 !important;
 }
 
 .flex-table-item-primary {
-    color: #fff;
+    color: #d3ebe9 !important;
 }
 
 span.d-block {
-    color: #fff;
+    color: #d3ebe9 !important;
 }
 
 .signed-commit-header {
-    background-color: #243447;
-    border-color: #304251;
+    background-color: #091f2e !important;
+    border-color: #33859e !important;
 }
 
 
@@ -2150,9 +2150,9 @@ li.session-device {
     font-size: 14px;
     padding: 5px;
 }
-    
-    
-    
+
+
+
 
 /* Helper */
 
@@ -2197,7 +2197,7 @@ li.session-device {
 .blob-expanded .blob-num, .blob-expanded .blob-code {
     background-color: #0c1014 !important;
 }
-       
+
 /* End of Experimental */
 
 
@@ -2411,14 +2411,14 @@ li.session-device {
 
 
 
-    
-/****** Custom by NULL ******/    
-    
-/* remove unwanted borders */    
-.vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .filter-bar, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em, .steps {
+
+/****** Custom by NULL ******/
+
+/* remove unwanted borders */
+.vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em, .steps {
   border: none !important;
   border-radius: 0px !important;
-}   
+}
 
 .btn-link {
     display: block !important;
@@ -2426,12 +2426,12 @@ li.session-device {
     background-color: #edb443 !important;
     text-decoration: none !important;
     padding: 4px !important;
-}   
-    
+}
+
 .btn-link:hover {
     color: #11151c !important;
-}      
-    
+}
+
 .topic-tag {
     color: #0c1014 !important;
     background-color: #599cab;
@@ -2444,26 +2444,26 @@ li.session-device {
 
 .topic-tag-link:hover {
     background-color: #d3ebe9 !important;
-}    
-    
+}
+
 .topic-tag-action {
   border-radius: 0px !important;
   background-color: #99d1ce !important;
   padding: 4px !important;
   color: #0c1014 !important;
 }
-  
+
 .topic-tag-action .add-topic-button, .topic-tag-action .remove-topic-button {
   border-radius: 0px !important;
 }
-  
+
 .delete-topic-button {
   border-radius: 0px !important;
 }
-       
+
 .text-green {
-    color: #2aa889 !important;        
-}    
+    color: #2aa889 !important;
+}
 
 .branch-action-icon {
     margin-left: -55px !important;
@@ -2473,38 +2473,38 @@ li.session-device {
 .timeline-comment-avatar {
     margin-left: -55px !important;
     border-radius: 0px !important;
-}    
- 
+}
+
 .avatar {
-    border-radius: 0px !important;        
-}    
+    border-radius: 0px !important;
+}
 
 .post-merge-message {
     background-color: #0c1014 !important;
     border: 0 none !important;
     border-radius: 0 !important;
     padding: 15px;
-}   
+}
 
 .header .header-search-scope {
     color: #0c1014 !important;
-} 
-    
+}
+
 .header-search-wrapper {
     background-color: #99d1ce !important;
     color: #0c1014 !important;
-}   
-    
+}
+
 .header-search-input {
     background-color: #0c1014 !important;
-}     
-    
+}
+
 .file-info {
     font-family: "Inconsolata",Consolas,"Liberation Mono",Menlo,Courier,monospace !important;
     font-size: 14px !important;
-    line-height: 32px !important;;        
+    line-height: 32px !important;
 }
-    
+
 .file-actions {
     font-size: 14px !important;
 }
@@ -2659,6 +2659,6 @@ button.discussion-sidebar-toggle {
 .commit-desc pre {
   max-width: none;
 }
-  
+
 
 }
