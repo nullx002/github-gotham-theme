@@ -7,8 +7,7 @@
  * Version: 0.3
 */
 
-
-/* Sitewide Global [HTML, CSS, Fonts, etc.] */
+/* Sitewide Global [HTML, CSS, Fonts, etc.] v0.4 */
 
 @import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto+Slab'); 
 
@@ -32,21 +31,20 @@ h3, h4 {
     color: #d3ebe9 !important;
 }
 
-
-/* Sitewide Global Class */
+/* Sitewide Global Class v0.4 */
 
 .lead {
     color: #99d1ce !important;
 }
     
-/* Keyboard Shortcuts */    
+/* Keyboard Shortcuts v0.4 */    
 
 .keyboard-mappings th {
     font-size: 16px;
     color: #33859e !important;
 }
     
-/* Main Site and New User [Not Logged-in] */
+/* Main Site and New User [Not Logged-in] v0.4 */
 
 .site-header {
     background-color: #11151c !important;
@@ -95,8 +93,7 @@ h3, h4 {
     border-color: #33859e !important;
 }
 
-
-/* Main Site Login Page */
+/* Main Site Login Page v0.4 */
 
 .session-authentication {
     background-color: #11151c !important;
@@ -128,8 +125,7 @@ h3, h4 {
     color: #edb443 !important;
 }
 
-
-/* Sitewide Global */
+/* Sitewide Global v0.4 */
 
 .header {
     background-color: #11151c !important;
@@ -226,8 +222,7 @@ button.dropdown-item.dropdown-signout {
     color: #c23127 !important;
 }
 
-
-/* Common Site-wide */
+/* Common Class Site-wide v0.4 */
 
 .setup-header {
     border-color: #33859e !important;
@@ -236,8 +231,8 @@ button.dropdown-item.dropdown-signout {
 .setup-header h1 {
     color: #edb443 !important;    
 }
-    
-/* Logged-in Home */
+
+/* Logged-in Home v0.4 */
 
 .news .alert .simple .title {
     font-size: 16px !important;
@@ -309,7 +304,6 @@ button.dropdown-item.dropdown-signout {
     color: #599cab !important;
 }
 
-
 .octofication .broadcast-icon-mask {
     background-color: #11151c !important;
 }
@@ -329,8 +323,7 @@ button.dropdown-item.dropdown-signout {
     border-top: 1px solid #33859e !important;
 }
 
-
-/* New Repo */
+/* New Repo v0.4 */
 
 .outline-box-highlighted {
     background-color: #11151c !important;
@@ -352,9 +345,8 @@ button.dropdown-item.dropdown-signout {
 .Subhead-heading {
     color: #99d1ce !important;
 }    
-    
 
-/* Repo Home Page */
+/* Repo Home Page v0.4 */
 
 .repohead.experiment-repo-nav {
     background-color: #11151c !important;
@@ -558,8 +550,7 @@ span.d-block {
     border-color: #33859e !important;
 }
 
-
-/* Repo Blame */
+/* Repo Blame v0.4 */
 
 .blame-commit-title,
 .blame-commit-title .message {
@@ -613,7 +604,6 @@ span.d-block {
     background-color: #c23127 !important;
 }    
     
-
 .line-age {
     width: 2px !important;
     padding: 0 1px;
@@ -631,7 +621,7 @@ span.d-block {
     color: #2aa889 !important
 }    
 
-/* README Markdown Live */
+/* README/MAIN Markdown Live v0.4 */
 
 .readme .markdown-body,
 .readme .plain {
@@ -705,7 +695,6 @@ span.d-block {
     font-size: 1rem !important;
 }     
 
-
 .blob-code-hunk,
 .blob-code-expandable {
     background-color: #0c1014 !important;
@@ -728,7 +717,7 @@ span.d-block {
     background-color: #245361 !important;
 }
 
-/* Code syntax Highlighting */
+/* Code syntax Highlighting v0.4 */
 
 .pl-pds,
 .pl-s,
@@ -773,8 +762,7 @@ span.d-block {
     color: #4670d8;
 }
 
-
-/* Markdown Standalone */
+/* Markdown Standalone & Extras v0.4 */
 
 .markdown-body h2 {
     border-color: #33859e !important;
@@ -796,8 +784,7 @@ span.d-block {
     border-color: #33859e !important;
 }
 
-
-/* Repo Code Tab Live | Markdown */
+/* Repo Code Tab Live | Markdown v0.4 */
 
 .file {
     background-color: #11151c !important;
@@ -811,8 +798,8 @@ span.d-block {
 
 .file .image {
     background-color: #11151c !important;
-}    
-    
+}
+
 .breadcrumb strong.final-path {
     color: #99d1ce !important;
 }
@@ -836,8 +823,7 @@ span.d-block {
     border-color: #33859e !important;
 }
 
-
-/* Repo | Issues Tab */
+/* Repo > Issues Tab v0.4 */
 
 .table-list-header {
     background-color: #11151c !important;
@@ -852,7 +838,7 @@ span.d-block {
 .table-list-header .btn-link:hover {
     color: #edb443 !important;      
 }    
-    
+
 .Box-body-row--highlight .Box-row-link {
     color: #599cab !important;
 }
@@ -919,8 +905,7 @@ span.d-block {
     border-top: 1px solid #99d1ce !important;
 }    
 
-    
-/* Dropdown Menu */
+/* Dropdown Menu  v0.4 */
 
 .select-menu-modal {
     background-color: #11151c !important;
@@ -970,7 +955,7 @@ span.d-block {
     color: #0c1014 !important;
 }    
 
-/* Repo | Pull Request Tab */
+/* Repo > Pull Request Tab  v0.4 */
 
 .border-left,
 .border-right,
@@ -983,8 +968,7 @@ span.d-block {
     box-shadow: none;
 }
 
-
-/* Repo Issues & Pull Request Convo */
+/* Repo Issues & Pull Request Convo v0.4 */
 
 .gh-header-edit .edit-issue-title,
 .gh-header-edit .edit-issue-title:focus {
@@ -1023,8 +1007,7 @@ span.d-block {
 }
 
 .timeline-comment-wrapper {
-    border: 0;
-    
+    border: 0;    
 }
 
 .timeline-comment-header {
@@ -1261,11 +1244,10 @@ timeline-comment::before {
 }
 
 .status-heading {
-    color: #607d8b;
+    color: #599cab !important;
 }
 
-
-/* Site | Issue Tab */
+/* Site > Issue Tab v0.4 */
 
 .Box-row--focus-gray.navigation-focus {
     background-color: #11151c !important;
@@ -1280,11 +1262,10 @@ timeline-comment::before {
 }
 
 a.Box-row-link.h4.js-navigation-open {
-    color: #4078c0;
+    color: #599cab !important;
 }
 
-
-/* Code Tab | Branches */
+/* Code Tab > Branches v0.4 */
 
 .branch-summary,
 .branch-group-heading+.branch-summary,
@@ -1293,7 +1274,7 @@ a.Box-row-link.h4.js-navigation-open {
 }
 
 .branch-a-b-count .meter {
-    background-color: #243447;
+    background-color: #11151c !important;
 }
 
 .branch-a-b-count .count-half:last-child {
@@ -1301,11 +1282,11 @@ a.Box-row-link.h4.js-navigation-open {
 }
 
 .count-value.count-behind {
-    color: #dc3c3c;
+    color: #d3ebe9 !important;
 }
 
 .count-value.count-ahead {
-    color: #52bd58;
+    color: #599cab !important;
 }
 
 a.branch-name {
@@ -1320,11 +1301,10 @@ a.branch-name {
     border-color: #33859e !important;
 }
 
-
-/* File Changed | Compare | Reviews */
+/* File Changed > Compare > Reviews > Diff v0.4 */
 
 .diffbar {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .diff-table tr:not(:last-child) .line-comments {
@@ -1332,7 +1312,7 @@ a.branch-name {
 }
 
 .pr-toolbar {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .range-editor {
@@ -1342,18 +1322,18 @@ a.branch-name {
 }
 
 .compare-pr-placeholder {
-    background-color: #1a2632;
-    border-color: #cea61b;
+    background-color: #11151c !important;
+    border-color: #d26937 !important;
 }
 
 ul.comparison-list {
-    background: #1a2632;
+    background: #11151c !important;
     border-color: #33859e !important;
 }
 
 ul.comparison-list>li.title {
-    color: #9e9e9e;
-    background: #243447;
+    color: #99d1ce !important;
+    background: #11151c !important;
 }
 
 ul.comparison-list>li {
@@ -1362,7 +1342,7 @@ ul.comparison-list>li {
 
 .file-diff-split .empty-cell {
     background-color: #0c1014 !important;
-    border-right-color: #33859e;
+    border-right-color: #33859e !important;
 }
 
 .feature-callout-octicon {
@@ -1383,7 +1363,7 @@ ul.comparison-list>li {
 }
 
 .review-thread-reply .inline-comment-form {
-    background-color: #1a2632;
+    background-color: #11151c !important;
 }
 
 .review-comment .reaction-summary-item:not(.add-reaction-btn) {
@@ -1398,8 +1378,7 @@ ul.comparison-list>li {
     border-color: #33859e !important;
 }
 
-
-/* Release & Tags Section */
+/* Release & Tags Section v0.4 */
 
 .release-label {
     background-color: #195466 !important;
@@ -1451,7 +1430,7 @@ ul.comparison-list>li {
 
 .tabnav-extra {
     padding-right: 15px;
-    color: #9e9e9e;
+    color: #99d1ce !important;
 }
 
 .tag-info h3 a .tag-name {
@@ -1478,8 +1457,7 @@ ul.comparison-list>li {
     border-color: #33859e !important;
 }    
 
-    
-/* Pagination */
+/* Pagination v0.4 */
     
 .pagination .gap,
 .pagination .gap:hover, 
@@ -1500,33 +1478,30 @@ ul.comparison-list>li {
     background-color: #195466 !important;    
 }    
     
-    
-/* Commits Tab */
+/* Commits Tab v0.4 */
 
 .commit-group-title .octicon-git-commit {
     margin-right: 17px;
-    color: #304251;
-    background: #1a2632;
+    border-color: #33859e !important;
+    background: #11151c !important;
 }
 
 .commits-listing::before {
-    background-color: #304251;
+    background-color: #33859e !important;
 }
 
-
-/* Nav */
-
+/* Navigation v0.4 */
+    
 .subnav-item {
-    border-color: #304251;
+    border-color: #33859e !important;
 }
 
 .subnav-item:hover,
 .subnav-item:focus {
-    background-color: #151f29;
+    background-color: #11151c !important;
 }
 
-
-/* Repo Wiki Tab */
+/* Repo Wiki Tab v0.4 */
 
 .blankslate {
     background-color: #11151c !important;
@@ -1535,7 +1510,7 @@ ul.comparison-list>li {
 }
 
 .wiki-wrapper .wiki-auxiliary-content {
-    background: #243447;
+    background: #11151c !important;
 }
 
 .wiki-rightbar .boxed-group.collapsed>h3 {
@@ -1583,7 +1558,7 @@ ul.comparison-list>li {
     color: #4e5166 !important;
 } 
     
-/* Repo Project Tab */
+/* Repo Project Tab v0.4 */
 
 .border {
     border-color: #33859e !important;
@@ -1609,8 +1584,7 @@ ul.comparison-list>li {
     background-color: #11151c !important;
 }
 
-
-/* Repo Pulse Tab */
+/* Repo Pulse Tab v0.4 */
 
 .pulse-graph:first-child {
     border-color: #33859e !important;
@@ -1621,7 +1595,7 @@ ul.comparison-list>li {
 }
 
 .conversation-list-heading .inner {
-    background: #1a2632;
+    background: #11151c !important;
 }
 
 .conversation-list-heading {
@@ -1637,27 +1611,26 @@ ul.comparison-list>li {
 }
 
 .summary-stats li .num {
-    color: #969ab0;
+    color: #99d1ce !important;
 }
 
 .summary-stats li a:hover {
-    background: #151f29;
+    background: #11151c !important;
 }
 
 .diffstat-summary strong {
-    color: #84aaf7;
+    color: #888ca6 !important;
 }
 
 .axis line {
-    stroke: #304251;
+    stroke: #33859e !important;
 }
 
 .subhead {
     border: 0;
 }
 
-
-/* Repo Graph | Contributors */
+/* Repo Graph > Contributors v0.4 */
 
 .tint-box {
     background: #11151c !important;
@@ -1676,52 +1649,44 @@ ul.comparison-list>li {
     fill: #edb443 !important;    
 }    
     
-    
 .graphs .area {
     fill: #33859e !important;
-}
-
-.graphs .selection rect {
-    
-}    
-    
+}   
     
 .capped-card h3 {
     border-color: #33859e !important;
 }
 
-
-/* Repo Graph | Punch Card */
+/* Repo Graph > Punch Card v0.4 */
 
 .day-name {
-    fill: #8899a6;
+    fill: #888ca6 !important;
 }
 
 circle.day {
-    fill: #969ab0;
+    fill: #99d1ce !important;
     stroke-width: 0;
 }
 
 :not(img) text,
 circle.day {
-    fill: #969ab0;
+    fill: #99d1ce !important;
 }
 
 line.axis {
-    stroke: #304251;
+    stroke: #33859e !important;
 }
 
 line.axis.even {
-    stroke: #304251;
+    stroke: #33859e !important;
 }
 
 :not(img) text,
 circle.day {
-    fill: #8899a6;
+    fill: #888ca6 !important;
 }
 
-
-/* Repo Graph | Traffic */
+/* Repo Graph > Traffic v0.4 */
 
 table.capped-list td {
     ;
@@ -1733,35 +1698,35 @@ table.capped-list th {
 }
 
 table.capped-list tr:nth-child(even) {
-    background-color: #243447;
+    background-color: #11151c !important;
 }
 
 
-/* Repo Graph | Code Frequency */
+/* Repo Graph > Code Frequency v0.4 */
 
 .code-frequency .addition {
-    fill: #52bd58;
+    fill: #599cab !important;
 }
 
 .code-frequency .deletion {
-    fill: #dc3c3c;
+    fill: #d26937 !important;
 }
 
 .cadd {
     font-weight: bold;
-    color: #52bd58;
+    color: #599cab !important;
 }
 
 .cdel {
     font-weight: bold;
-    color: #dc3c3c;
+    color: #d3ebe9 !important;
 }
 
 .graphs .dir {
-    color: #9e9e9e;
+    color: #99d1ce !important;
 }
 
-/* Repo Graph | Network Graph */    
+/* Repo Graph > Network Graph v0.4 */    
     
 .Box {
     background-color: #fff !important;
@@ -1769,7 +1734,7 @@ table.capped-list tr:nth-child(even) {
     border-radius: 0px !important;
 }
 
-/* Primer Notice */  
+/* Primer Notice v0.4 */  
   
 .Box.clearfix {
     background-color: #11151c !important;
@@ -1777,7 +1742,7 @@ table.capped-list tr:nth-child(even) {
     border-radius: 0px !important;
 }
     
-/* Repo Settings Tab */
+/* Repo Settings Tab v0.4 */
 
 .menu {
     margin-bottom: 15px;
@@ -1824,8 +1789,7 @@ hr,
     border-color: #304251;
 }
 
-
-/* Profile */
+/* Profile v0.4 */
 
 .border-top {
     border-color: #304251 !important;
@@ -1863,7 +1827,7 @@ hr,
 }
 
 .underline-nav-item:hover {
-    color: #607d8b;
+    color: #599cab !important;
 }
 
 .profile-timeline-card-wrapper {
@@ -1883,22 +1847,19 @@ hr,
     border-color: #33859e !important;
 }
 
-
-/* Profile | Contribution */
+/* Profile > Contribution v0.4 */
 
 #contributions-calendar rect[fill="#eeeeee"] {
     fill: #151f29;
 }
 
-
-/* Profile | Repo Tab */
+/* Profile > Repo Tab v0.4 */
 
 .profilecols .filter-bar .filter-selected {
     color: #888ca6 !important;
 }
 
-
-/* Notification */
+/* Notification v0.4 */
 
 .list-group-item.navigation-focus {
     background-color: #11151c !important;
@@ -1922,7 +1883,7 @@ hr,
     color: #c23127 !important;
 }    
 
-/* Organisation */
+/* Organisation v0.4 */
 
 .org-name {
     color: #d3ebe9 !important;
@@ -1968,8 +1929,7 @@ hr,
     border-color: #33859e !important;
 }
 
-
-/* Create Organisation */
+/* Create Organisation v0.4 */
 
 .setup-header {
     text-shadow: none;
@@ -2010,11 +1970,10 @@ hr,
     border-color: #33859e !important;
 }
 
-
-/* Personal Settings (Global) */
+/* Personal Settings (Global) v0.4 */
 
 .menu-heading {
-    color: #fff;
+    color: #d3ebe9 !important;
     background-color: #11151c !important;
     border-color: #33859e !important;
 }
@@ -2047,8 +2006,7 @@ dl.new-email-form {
     border-color: #33859e !important;
 }
 
-
-/* Settings | Security */
+/* Settings > Security v0.4 */
 
 li.session-device.session-current,
 li.session-device {
@@ -2073,8 +2031,7 @@ li.session-device {
     border-color: #33859e !important;
 }
 
-
-/* Settings | Billing */
+/* Settings > Billing v0.4 */
 
 .billing-section {
     border-color: #33859e !important;
@@ -2088,8 +2045,7 @@ li.session-device {
     color: #d3ebe9 !important;
 }
 
-
-/* Modal */
+/* Modal v0.4 */
 
 .facebox-popup {
     background-color: #0c1014 !important;
@@ -2125,8 +2081,7 @@ li.session-device {
     border-color: #33859e !important;
 }
 
-
-/* Scrollbar */
+/* Scrollbar v0.4 */
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -2145,8 +2100,7 @@ li.session-device {
     background-color: #0c1014 !important;
 }
 
-
-/* Search Results */
+/* Search Results v0.4 */
 
 .repo-list-item {
     border-color: #33859e !important;
@@ -2205,10 +2159,7 @@ li.session-device {
     padding: 5px;
 }
 
-
-
-
-/* Helper */
+/* Helper v0.4 */
 
 .timeline-commits .hidden-text-expander .ellipsis-expander {
     color: #888ca6 !important;
@@ -2221,11 +2172,7 @@ li.session-device {
     background: #11151c !important;
 }
 
-
-/* Experimental | Enchancement */
-
-
-/* Blob Minus */
+/* Blob Minus v0.4 */
 
 .blob-num-deletion {
     background-color: #d3ebe9 !important;
@@ -2237,8 +2184,7 @@ li.session-device {
     color: #ef9a9a;
 }
 
-
-/* Blob Plus */
+/* Blob Plus v0.4 */
 
 .blob-num-addition {
     background-color: #a5d6a7 !important;
@@ -2252,10 +2198,7 @@ li.session-device {
     background-color: #0c1014 !important;
 }
 
-/* End of Experimental */
-
-
-/* GitHub Gists */
+/* GitHub Gists v0.4 */
 
 .header-logo-wordmark {
     color: #d3ebe9 !important;
@@ -2265,8 +2208,7 @@ li.session-device {
     color: #195466 !important;
 }
 
-
-/* Rework Buttons | Icons */
+/* Rework Buttons > Icons v0.4 */
 
 .ajax-pagination-form .ajax-pagination-btn {
     color: #99d1ce !important;
@@ -2305,9 +2247,8 @@ li.session-device {
     color: #888ca6 !important;
 }
 
-
-/* Github Pricing */
-
+/* Github Pricing v0.4 */
+    
 .shade-gradient {
     background-image: none;
 }
@@ -2337,8 +2278,7 @@ li.session-device {
     border-color: #33859e !important;
 }
 
-
-/* GitHub Explore */
+/* GitHub Explore v0.4 */
 
 .sort-bar {
     border-color: #33859e !important;
@@ -2409,15 +2349,13 @@ li.session-device {
     border-color: #33859e !important;
 }
 
-
-/* GitHub Blog */
+/* GitHub Blog v0.4 */
 
 .blog-title {
     color: #d3ebe9 !important;
 }
 
-
-/* Octotree Addon */
+/* Octotree Addon v0.4 */
 
 .octotree_github_sidebar {
     background-color: #11151c !important;
@@ -2460,20 +2398,15 @@ li.session-device {
     filter: invert(1);
 }
 
-
-/* End */
-
-
-
-
-/****** Custom by NULL ******/
-
-/* remove unwanted borders */
+/* Miscellaneous, Minimal and Widescreen v0.4 */
+/* Removed Borders for Minimalistic version v0.4 */
 .vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em, .steps {
   border: none !important;
   border-radius: 0px !important;
 }
 
+/* Miscellaneous > Additional v0.4 */    
+    
 .btn-link {
     display: block !important;
     color: #0c1014 !important;
@@ -2575,19 +2508,8 @@ li.session-device {
     line-height: 1;
     padding: 4px 4px;
 }    
-    
-    
-    
-    
-    
-/****** end of NULL edits  ******/    
-    
-    
-/* Now to widen github*/
 
-
-
-
+/* For Widescreen v0.4 */
 
 .container {
   width: 100% !important;
@@ -2595,7 +2517,7 @@ li.session-device {
   padding-right: 30px !important;
 }
 
-/* Repo Next layout */
+/* Repo Next layout v0.4 */
 
 .repository-content {
   width: 100% !important;
@@ -2623,7 +2545,7 @@ li.session-device {
   width: 50%;
 }
 
-/* Repo Next Code page */
+/* Repo Next Code page v0.4 */
 
 .with-full-navigation {
   padding-right: 190px !important;
@@ -2633,7 +2555,7 @@ li.session-device {
   margin-right: -190px !important;
 }
 
-/* Issues/PRs */
+/* Issues/PRs v0.4 */
 
 .discussion-sidebar {
   width: 220px !important;
@@ -2643,12 +2565,11 @@ li.session-device {
   width: calc(100% - 240px) !important;
 }
 
-/* Fix #18 - props: @auscompgeek */
 .file-header::after {
   clear: left !important;
 }
 
-/* New issues and Dashboard */
+/* New issues and Dashboard v0.4 */
 
 #dashboard,
 .new-issue-form {
@@ -2670,16 +2591,14 @@ button.discussion-sidebar-toggle {
   max-width: none !important;
 }
 
-/* Dashboard */
-/* Note that this won't be needed if we actually flipped the DOM order around. */
+/* Dashboard v0.4 */
 
 .news {
   float: none !important;
   margin-right: 360px !important;
 }
 
-/* Settings */
-/* This should be refactored to use our grid.scss styles anyway, thus negating these styles. */
+/* Settings v0.4 */
 
 .settings-content,
 .repo-settings-content {
@@ -2702,17 +2621,14 @@ button.discussion-sidebar-toggle {
   padding-right: 30px !important;
 }
 
-/* Profile page */
-
-/* Profile avatar tooltip */
+/* Profile avatar tooltip v0.4 */
 .vcard-avatar {
   width: 230px !important;
 }
 
-/* Commits: extended message under "..." */
+/* Commits: extended message under "..." v0.4 */
 .commit-desc pre {
   max-width: none;
 }
-
 
 }
