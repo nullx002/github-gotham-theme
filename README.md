@@ -92,7 +92,7 @@ Github Gotham Theme is released under [the license][license-file] GNU/GPL V3.0
 [firefox]: https://addons.mozilla.org/en-US/firefox/addon/stylish/
 [chrome]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
 [safari]: http://sobolev.us/stylish
-[userstyles]: https://userstyles.org/styles/xxxxxx
+[userstyles]: https://userstyles.org/styles/142087/github-gotham-theme
 
 [screenshot]: /img/screenshot.png "Github Screenshot"
 [screenshot-1]: /img/screenshot-1.png "Github Screenshot"
