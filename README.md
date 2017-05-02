@@ -54,7 +54,7 @@ palette wherever possible.
 
 ### Contributors
 
-You can find the list of contributors [here][contributors].
+You can find the list of contributors [here][contributors-list].
 
 
 ## License
@@ -70,7 +70,7 @@ Github Gotham Theme is released under [the license][license-file] GNU/GPL V3.0
 [screenshot]: /img/screenshot.png "Github Screenshot"
 [screenshot-1]: /img/screenshot-1.png "Github Screenshot"
 [license-file]: LICENSE.md
-[contributors]: https://github.com/nullx002/github-gotham-theme/graphs/contributors
+[contributors-list]: https://github.com/nullx002/github-gotham-theme/graphs/contributors
 
 [release]: https://img.shields.io/github/release/nullx002/github-gotham-theme.svg?style=flat-square&colorA=0c1014&colorB=2aa889
 [license]: https://img.shields.io/github/license/nullx002/github-gotham-theme.svg?style=flat-square&colorA=0c1014&colorB=2aa889
