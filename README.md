@@ -24,13 +24,35 @@ commented.
 
 ### Screenshots
 
+Repo:
+
 ![screenshot][screenshot]
+
+Issues Tab:
 
 ![screenshot][screenshot-1]
 
 
+## Installation and Usage
 
-### Color Palette
+You have to install Stylish plugin - usersytle manager for your browser
+
+- [Firefox][firefox] (be sure to place the CSS inside the `@-moz-document
+  domain("github.com")` block) 
+- [Chrome][chrome]
+- [Safari][safari]
+
+First create a new userstyle in stylish and then paste the styles from
+`github-gotham-theme.css` into that. make sure you have latest version or your
+can install it directly from usersyles.org website.
+
+### Userstyles.org
+
+You can install it via Stylish in a single click from this
+package: [GitHub Gotham Theme][userstyles] 
+
+
+## Color Palette
 
 
 | Color Base    | Hex           | Other Colors  | Hex           |
@@ -66,6 +88,11 @@ Github Gotham Theme is released under [the license][license-file] GNU/GPL V3.0
 
 [vim]: https://github.com/whatyouhide/vim-gotham/ "Vim Gotham theme"
 [emacs]: https://github.com/wasamasa/gotham-theme/ "Emacs Gotham Theme"
+
+[firefox]: https://addons.mozilla.org/en-US/firefox/addon/stylish/
+[chrome]: https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
+[safari]: http://sobolev.us/stylish
+[userstyles]: https://userstyles.org/styles/xxxxxx
 
 [screenshot]: /img/screenshot.png "Github Screenshot"
 [screenshot-1]: /img/screenshot-1.png "Github Screenshot"

@@ -2400,6 +2400,7 @@ li.session-device {
 
 /* Miscellaneous, Minimal and Widescreen v0.4 */
 /* Removed Borders for Minimalistic version v0.4 */
+/* Remove this code to retain borders */
 .vcard-details, .vcard-stats, .boxed-group > h3, .boxed-group .heading, .mini-repo-list-item, .boxed-group-inner, .contrib-column-first, .contrib-column, .site-footer, .conversation-list-heading, .btn, .select-menu-item, .header, .tabnav-tab.selected, .news .alert, .form-control, .form-select, .blankslate, hr, .rule, .menu, .menu-item.selected, .menu-item, .menu-heading, .boxed-group-inner .help, .billing-section, .boxed-group-list > li:first-child, .dashboard-notice, .table-list-header, .table-list-bordered .table-list-cell, .table-list, dl.new-email-form, .subnav-item.selected, .subnav-item.selected:hover, .subnav-item.selected:focus, a.js-selected-navigation-item, .repohead.experiment-repo-nav, .file, .overall-summary, .repository-lang-stats-graph, .branch-infobar, .commit-tease, tr.js-navigation-item, .file-wrap, tr.js-navigation-item td, .readme .markdown-body, .readme .plain, .markdown-body blockquote, h2, h1, .subhead, .pulse-graph:first-child, .capped-card, .social-count, .header-search-scope, .protip-callout, .repo-list-item, .summary-stats li, .pulse-graph, .capped-card h3, .traffic-graph-stats, table.capped-list th, table.capped-list td, .commit-tease-contributors, .blob-num, .file-header, .file .image img, .file .image canvas, .file .image .border-wrap, .subnav-item, .branch-group-heading, .branch-summary:last-child, .no-results-message, .gh-header-meta, .wiki-wrapper .wiki-custom-sidebar, .flash, .filter-item, .dropdown-menu, .dropdown-menu-sw, .release-label, .pagination, .pagination a, .pagination span, .pagination em, .steps {
   border: none !important;
   border-radius: 0px !important;
@@ -2509,7 +2510,8 @@ li.session-device {
     padding: 4px 4px;
 }    
 
-/* For Widescreen v0.4 */
+/* For Widescreen v0.4 */ 
+/* Remove from here to end to disable widescreen */
 
 .container {
   width: 100% !important;
